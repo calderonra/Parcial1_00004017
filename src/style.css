@@ -22,19 +22,22 @@ body{
     text-decoration: none;
 }
 
-#logo{
+.navbar li img{
     height: 100px;
     width: 100px;
     position: absolute;
     top: 4px;
     padding: 0 5px 5px;
     object-fit: contain;
+    web-kit
     
 }
 
+
+
 .portada{
     text-align: center;
-    background-image: url(/src/img/concierto.jpg);
+    background-image: url(../src/img/concierto.jpg);
     padding-top: 5em;
     margin-bottom: 0;
     padding-left: 5%;
@@ -47,12 +50,14 @@ body{
 }
 
 .portada h1{
-    font-size: 100px;
+    font-size: 10em ;
+    font-family: 'Monoton', cursive;
+    
 }
 
 .contacto{
     color: white;
-    background-image: url(/src/img/contacus.jpg);
+    background-image: url(../src/img/contacus.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -102,4 +107,36 @@ body{
 
 .mosaico .cajasDeContenido{
     padding: 5px;
+}
+
+h2{
+    color: #9a7722;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .mosaico{
+
+    display:grid;
+    grid-template-columns: 100%;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 714px){
+    .contacto{
+        display: grid;
+        grid-template-columns: 100%;
+
+        
+    }
+
+    .pieDePagina{
+        display: grid;
+        grid-template-columns: 100%;    
+    }
 }
