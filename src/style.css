@@ -85,3 +85,21 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
+.readMore{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.5em;
+    text-align: center;
+    color:#87CEEB;
+    padding: 1em;
+    font-size: 24px;
+    border: 2px solid #87CEEB;
+}
+
+.readMore:hover {background-color:aqua;}
+
+.mosaico .cajasDeContenido{
+    padding: 5px;
+}
