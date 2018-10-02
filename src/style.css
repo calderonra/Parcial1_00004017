@@ -72,4 +72,16 @@ body{
     text-decoration: none;
 }
 
+.mosaico{
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+}
 
+.mosaico .cajasDeContenido .icono{
+    height: 10em;
+}
+.mosaico .cajasDeContenido .icono img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
