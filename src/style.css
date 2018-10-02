@@ -1,0 +1,13 @@
+.navbar{
+    width: 100%;
+    height: 56px;
+}
+
+.navbar .listaNav{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background-color:black;
+    position: relative;
+    height: 100%; 
+}
