@@ -29,7 +29,7 @@ body{
     top: 4px;
     padding: 0 5px 5px;
     object-fit: contain;
-    web-kit
+    
     
 }
 
@@ -130,11 +130,8 @@ h2{
 @media only screen and (max-width: 714px){
     .contacto{
         display: grid;
-        grid-template-columns: 100%;
-
-        
+        grid-template-columns: 100%;       
     }
-
     .pieDePagina{
         display: grid;
         grid-template-columns: 100%;    
