@@ -33,9 +33,30 @@ body{
 }
 
 .portada{
-    background-image: url(/src/concierto.jpg);
-    margin-top: 0;
+    text-align: center;
+    background-image: url(concierto.jpg);
+    padding-top: 5em;
     margin-bottom: 0;
     padding-left: 5%;
-padding-right:5%;
+    padding-bottom: 5em;
+    padding-right:5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.portada h1{
+    font-size: 100px;
+}
+
+.contacto{
+    color: white;
+    background-image: url(contacus.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 5em;
 }
